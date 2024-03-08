@@ -1,59 +1,62 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SHEIN</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <table class="title">
-        <td><h1>SHEIN my</h1></td>
-    </table>
+    <h1 class="title">SHEINmy</h1>
     <br>
     <form class="form">
-    <label for="email">Mobile number or email address</label>
-    <br>
-    <input type="email" id="email" name="email" required>
+        <label for="email">Mobile number or email address</label>
+        <br>
+        <input class="Email" type="email" id="email" name="email" required>
     </form>
-    <br>
     <table class="style">
         <tr>
-            <td class="td teks-putih latar-hitam">CONTINUE</td>
+            <td>
+                <button class="button1" type="continue">CONTINUE</button>
+            </td>
         </tr>
     </table>
-    <br>
-    <table class="Join">
-    <p>--------- Or Join With -----------</p>
+    <table>
+        <p class="Join">--------- Or Join With -----------</p>
     </table>
-    <br>
     <table class="style">
         <tr>
-            <td class="td teks-hitam latar-putih">Continue with Google</td>
+            <td>
+                <button class="button2" type="google">Continue with Google</button>
+            </td>
         </tr>
         <tr>
-            <td class="td teks-hitam latar-putih">Continue with Facebook</td>
+            <td>
+                <button class="button3" type="facebook">Continue with Facebook</button>
+            </td>
         </tr>
     </table>
+    <div class="div">
+        <select name="country" id="country" required>
+            <option disabled>-</option>
+                <option>Malaysia</option>
+                <option>Maldives</option>
+                <option>France</option>
+                <option>Italy</option>
+                <option>South Korea</option>
+            </optgroup>
+        </select>
+    </div>
     <br>
-    <table class="country">
-    <br>
-    <select name="country" id="country" required>
-        <option value=""></option>
-        <optgroup label="">
-            <option>Malaysia</option>
-            <option>Maldives</option>
-            <option>France</option>
-            <option>Italy</option>
-            <option>South Korea</option>
-        </optgroup>
-    </select>
+    <table class="table2">
+        <tr>
+            <td class="text1">By continuing, you agree to our<label class="privacy"> Privacy & Cookie Policy</label></td>
+            <td class="text2"> and<label class="terms"> Terms & Conditions.</label></td>
+        </tr>
     </table>
-    <br>
-    <table class="footer">
-    <p>By continuing, you agree to our Privacy & Cookie Policy</p>
-    <p>and Terms & Conditions</p>
-    </table>
+    
 </body>
+
 </html>
